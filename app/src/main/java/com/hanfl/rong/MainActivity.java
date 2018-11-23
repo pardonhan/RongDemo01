@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSuccess(String s) {
                 // connectResultId = s;
-                NLog.e("connect", "onSuccess userid:" + s);
+                NLog.d("connect", "onSuccess userid:" + s);
                /* editor.putString(SealConst.SEALTALK_LOGIN_ID, s);
                 editor.apply();
                 SealUserInfoManager.getInstance().openDB();
